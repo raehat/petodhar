@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "707497122110",
+    "firebase_url": "https://booklelo-f290c.firebaseio.com",
+    "project_id": "booklelo-f290c",
+    "storage_bucket": "booklelo-f290c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707497122110:android:99ebeccd3c1c91a53b346f",
+        "android_client_info": {
+          "package_name": "com.example.booklelo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "707497122110-asfke1l011vt6nab2rfbhdecrju0j875.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.booklelo",
+            "certificate_hash": "305f6483a8b7956a36a684fc1673bcae6ca6153b"
+          }
+        },
+        {
+          "client_id": "707497122110-ctvpema5620v5836mh30pm3qrpcavmtk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgQ_x8C842JgIbP1NR4BDFARBpieS_p3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "707497122110-ctvpema5620v5836mh30pm3qrpcavmtk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

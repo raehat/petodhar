@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000">
+
+
+    <ScrollView
+        android:id="@+id/scr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="120dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="400dp"
+                android:layout_height="400dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/b1" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/imageView3"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="20dp"
+                android:text="PET NAME"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_below="@id/imageView3"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="20dp"
+                android:text="AMOUNT:"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/pet"
+                android:layout_width="205dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/imageView3"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="50dp"
+                android:gravity="center_horizontal"
+                android:text="textview"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/amount"
+                android:layout_width="205dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/imageView3"
+                android:layout_marginLeft="210dp"
+                android:layout_marginTop="50dp"
+                android:paddingLeft="40dp"
+                android:text="textview"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="500dp"
+                android:gravity="center_horizontal"
+                android:text="Description"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="16dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="340dp"
+                android:layout_height="110dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="525dp"
+                android:background="#414a4c"
+                android:gravity="center"
+                android:text="description here..."
+                android:textAlignment="center"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="644dp"
+                android:paddingLeft="30dp"
+                android:text="LOCALITY"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="644dp"
+                android:paddingLeft="30dp"
+                android:text="CITY"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/locality"
+                android:layout_width="170dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="674dp"
+                android:paddingLeft="30dp"
+                android:text="LOCALITY"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="674dp"
+                android:paddingLeft="30dp"
+                android:text="CITY"
+                android:textColor="#FFFFFF" />
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:layout_below="@id/locality"/>
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="270dp"
+            android:backgroundTint="#ff6000"
+            android:layout_marginTop="470dp"
+            android:clickable="true"
+            app:srcCompat="@drawable/ic_baseline_shopping_cart_24"
+            tools:ignore="VectorDrawableCompat" />
+        <TextView
+            android:layout_width="114dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/floatingActionButton"
+            android:layout_marginLeft="240dp"
+            android:background="#ff6000"
+            android:paddingTop="5dp"
+            android:paddingLeft="2dp"
+            android:textColor="#ffffff"
+            android:textSize="12dp"
+            android:text="ADD PET TO CART"/>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="99dp"
+        android:layout_marginTop="565dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:background="#ff6000">
+            <Button
+                android:id="@+id/mobile"
+                android:layout_width="340dp"
+                android:layout_height="42dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="0dp"
+                android:layout_below="@id/textView26"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/round2"
+                android:text="CALL"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="202dp"
+                android:layout_height="34dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="0dp"
+                android:paddingTop="5dp"
+                android:text="Want to buy this pet? Contact:"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pets">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.pets.Help"
+            android:parentActivityName="com.example.pets.screen"></activity>
+        <activity
+            android:name="com.example.pets.Settings"
+            android:parentActivityName="com.example.pets.screen" />
+        <activity android:name="com.example.pets.beforeAuth.intro" />
+        <activity android:name="com.theartofdev.edmodo.cropper.CropImageActivity"/>
+        <activity android:name="com.example.pets.GetPets.ViewPagerFragment" />
+        <activity android:name="com.example.pets.beforeAuth.getLocationBS" />
+        <activity
+            android:name="com.example.pets.beforeAuth.GetLocation"
+            android:parentActivityName="com.example.pets.beforeAuth.loginOrRegister" />
+        <activity android:name="com.example.pets.beforeAuth.enterOTP" />
+        <activity android:name="com.example.pets.beforeAuth.enterOTPforLogin" />
+        <activity android:name="com.example.pets.beforeAuth.loginOrRegister" />
+        <activity
+            android:name="com.example.pets.beforeAuth.login"
+            android:parentActivityName="com.example.pets.beforeAuth.loginOrRegister" />
+        <activity
+            android:name="com.example.pets.GivePets.MyPetDetails"
+            android:parentActivityName="com.example.pets.screen" />
+        <activity
+            android:name="com.example.pets.Cart.PetDetailsCart"
+            android:parentActivityName="com.example.pets.screen" />
+        <activity
+            android:name="com.example.pets.PetDetails"
+            android:parentActivityName="com.example.pets.screen" />
+        <activity
+            android:name="com.example.pets.screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.pets.beforeAuth.register"
+            android:parentActivityName="com.example.pets.beforeAuth.GetLocation" />
+        <activity android:name="com.example.pets.beforeAuth.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

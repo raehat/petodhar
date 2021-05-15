@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selldr"
+    tools:context=".MainActivity3">
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <androidx.recyclerview.widget.RecyclerView
+           android:id="@+id/recyclerView2"
+           android:layout_width="353dp"
+           android:layout_height="520dp"
+           android:layout_marginStart="1dp"
+           android:layout_marginLeft="1dp"
+           android:layout_marginEnd="1dp"
+           android:layout_marginRight="1dp"
+           android:layout_marginBottom="16dp"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/tt2" />
+
+       <TextView
+           android:id="@+id/tt"
+           android:layout_width="342dp"
+           android:layout_height="43dp"
+           android:layout_marginStart="34dp"
+           android:layout_marginTop="7dp"
+           android:layout_marginEnd="35dp"
+           android:fontFamily="@font/aldrich"
+           android:text="MY PETS"
+           android:textColor="#FFFFFF"
+           android:textSize="24sp"
+           android:textStyle="bold"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent" />
+
+       <TextView
+           android:id="@+id/tt2"
+           android:layout_width="338dp"
+           android:layout_height="39dp"
+           android:layout_marginTop="1dp"
+           android:text="This page shows all the pets you want to sell. Click on any pet to do more..."
+           android:textColor="#FFFFFF"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintHorizontal_bias="0.465"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toBottomOf="@+id/tt" />
+
+       <ProgressBar
+           android:id="@+id/progressBar"
+           style="?android:attr/progressBarStyle"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           app:layout_constraintBottom_toBottomOf="@+id/recyclerView2"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="@+id/recyclerView2"
+           app:layout_constraintTop_toTopOf="@+id/recyclerView2" />
+
+       <TextView
+           android:id="@+id/add"
+           android:layout_width="183dp"
+           android:layout_height="37dp"
+           android:textAlignment="center"
+           android:textColor="#FFFFFF"
+           android:textSize="18sp"
+           app:layout_constraintBottom_toBottomOf="@+id/recyclerView2"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="@+id/recyclerView2"
+           android:gravity="center_horizontal" />
+   </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

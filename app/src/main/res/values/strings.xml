@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">pets</string>
+    <string name="app_label">label</string>
+    <string name="search_hint">search</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+</resources>

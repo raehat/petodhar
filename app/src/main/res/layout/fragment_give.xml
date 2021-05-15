@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/neww">
+
+
+
+
+    <ScrollView
+        android:id="@+id/scr"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="120dp">
+
+            <TextView
+                android:id="@+id/tran"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="@font/aldrich"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="SELL YOUR PET HERE..."
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tran2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="50dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="14dp"
+                android:paddingRight="30dp"
+                android:shadowColor="#FFFFFF"
+                android:text="Sell the pet you want to. You can fill up this form and click on the image pic to upload a pic of your pet too. Then your pet will be visible to all th other buyers in your area."
+                android:textColor="#FFFFFF" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="353dp"
+                android:layout_height="259dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="150dp"
+                android:src="@drawable/buy" />
+
+            <NumberPicker
+                android:background="#ffffff"
+                android:id="@+id/numberPicker"
+                android:layout_width="50dp"
+                android:layout_height="100dp"
+                android:outlineSpotShadowColor="#ffffff"
+                android:layout_below="@id/imageView3"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"></NumberPicker>
+
+            <TextView
+                android:id="@+id/bn1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_below="@id/imageView3"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="200dp"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:text="AMOUNT:"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                tools:ignore="RtlCompat" />
+
+            <EditText
+                android:id="@+id/amount"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_below="@id/imageView3"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="200dp"
+                android:ems="10"
+                android:hint="Enter Amount"
+                android:textColor="#ffffff"
+                android:inputType="number"
+                android:textColorHint="#FFFFFF"
+                android:backgroundTint="#ffffff"/>
+
+            <TextView
+                android:id="@+id/bn3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/amount"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+                android:gravity="top"
+                android:paddingLeft="10dp"
+                android:text="DESCRIPTION"
+                android:textAlignment="textStart"
+                android:textColor="#FFFFFF"
+                tools:ignore="RtlCompat" />
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_below="@id/amount"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="40dp"
+                android:ems="10"
+                android:gravity="top"
+                android:textColor="#ffffff"
+                android:hint="Enter description"
+                android:inputType="textMultiLine"
+                android:backgroundTint="#ffffff"
+                android:maxLines="5"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:textAlignment="gravity"
+                android:textColorHint="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:paddingLeft="10dp"
+                android:text="LOCALITY"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/uid"
+                android:layout_width="1dp"
+                android:layout_height="1dp"
+                android:paddingLeft="30dp"
+                android:text="LOCALITY"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/mobile"/>
+
+            <ImageButton
+                android:id="@+id/info_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imageView3"
+                android:layout_marginTop="50dp"
+                android:layout_centerHorizontal="true"
+                app:srcCompat="@drawable/ic_baseline_info_24" />
+
+        </RelativeLayout>
+
+
+
+    </ScrollView>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_marginTop="555dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#000000">
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="350dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:background="@drawable/round2"
+                android:text="SUBMIT"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

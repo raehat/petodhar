@@ -1,0 +1,260 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/selldr"
+        android:stretchColumns="1">
+
+        <TextView
+            android:id="@+id/tran"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="THIS IS YOUR ACCOUNT...."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tran2"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="Access your account details and manage your account. Here, you can log out from this account, or you can delete this account or maybe you can edit the details of this account."
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/tran2"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Your Account Details are shown below..."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/testValue"
+            android:layout_width="221dp"
+            android:layout_height="41dp"
+            android:layout_below="@id/tran2"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:paddingLeft="0dp"
+            android:text="loading..."
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:id="@+id/namet"
+            android:layout_width="100dp"
+            android:layout_height="41dp"
+            android:layout_below="@id/tran2"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="30dp"
+            android:text="NAME:"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:paddingLeft="30px">
+        </TextView>
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="100dp"
+            android:layout_height="21dp"
+            android:layout_below="@id/namet"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="ADDRESS:"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:paddingLeft="30px"></TextView>
+
+        <TextView
+            android:id="@+id/pint"
+            android:layout_width="100dp"
+            android:layout_height="21dp"
+            android:layout_below="@id/address"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="PIN:"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:paddingLeft="30px"></TextView>
+
+        <TextView
+            android:id="@+id/cityt"
+            android:layout_width="100dp"
+            android:layout_height="21dp"
+            android:layout_below="@id/pint"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="CITY:"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:paddingLeft="30px"></TextView>
+
+        <TextView
+            android:id="@+id/numbert"
+            android:layout_width="100dp"
+            android:layout_height="21dp"
+            android:layout_below="@id/cityt"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:text="NUMBER:"
+            android:textColor="#ffffff"
+            android:textSize="16dp"
+            android:gravity="center"
+            android:textAlignment="textStart"
+            android:paddingLeft="30px"></TextView>
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="221dp"
+            android:layout_height="21dp"
+            android:layout_below="@id/testValue"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:text="loading..."
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="221dp"
+            android:layout_height="21dp"
+            android:layout_below="@id/textView3"
+            android:layout_marginStart="140dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="0dp"
+            android:text="loading..."
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="221dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView4"
+            android:layout_marginBottom="12dp"
+            android:layout_marginLeft="140dp"
+            android:gravity="center_horizontal"
+            android:paddingLeft="0dp"
+            android:text="loading..."
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="221dp"
+            android:layout_height="21dp"
+            android:layout_below="@id/textView5"
+            android:layout_marginLeft="140dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:text="loading..."
+            android:textAlignment="textStart"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="343dp"
+            android:layout_height="58dp"
+            android:layout_below="@id/textView6"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="36dp"
+            android:drawableRight="@drawable/ic_baseline_keyboard_arrow_down_24"
+            android:gravity="center_horizontal"
+            android:text="You can logout, delete or edit account information by selecting one of these options mentioned below."
+            android:textAlignment="center"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="348dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/textView12"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/round2"
+            android:text="LOGOUT FROM THIS ACCOUNT"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="348dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/button2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/round2"
+            android:text="EDIT ACCOUNT INFORMATION"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="348dp"
+            android:layout_height="42dp"
+            android:layout_below="@id/button4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/round2"
+            android:text="DELETE THIS ACCOUNT"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="370dp"
+            android:layout_height="200dp"
+            android:layout_below="@id/tran2"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/accround"
+            android:text="TextView" />
+
+
+    </RelativeLayout>
+</ScrollView>
